@@ -1,7 +1,10 @@
 # LLMZoomCamp Kaggle Competition Winning Solution
 
 ## Introduction
-As a newcomer to the world of Large Language Models (LLMs), participating in the LLMZoomCamp competition was an incredible learning experience. The journey from having no prior experience with LLMs to developing a winning solution was both challenging and rewarding. One might wonder where in the field you would need to solve math problems with LLMs, and if it's even useful. My answer is yes; the techniques I learned, such as structured outputs, chain of thought reasoning, multithreading, and error handling with retry mechanisms, can elevate most LLM-based applications to the next level.
+Below is a summary for my winning solution for the [LLMZoomCamp Kaggle competition](https://www.kaggle.com/competitions/llm-zoomcamp-2024-competition/leaderboard) that was aiming to solve math problems with LLMs. One might wonder where in the field you would need to solve math problems with LLMs, and if it's even useful. My answer is yes; the techniques I used, such as structured outputs, chain of thought reasoning, multithreading, and error handling with retry mechanisms, can elevate most LLM-based applications to the next level.
+
+![LLMZoomCamp Competition Leaderboard](leaderboard.png)
+
 
 ## High-Level Solution Overview
 My solution leveraged the power of Claude-3.5 Sonnet, combining zero-shot chain of thought reasoning with Python code generation and execution. The intuition was that while LLMs might not always excel at math computations, they are quite proficient at generating code. Thus, the additional step of validating the answer by executing the code proved to improve the accuracy of the final answers.
